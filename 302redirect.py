@@ -5,7 +5,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 
 if len(sys.argv)-1 != 2:
     print("""
-Usage: {} <2040> <http://shop.lululemon.commerceznx.store>
+Usage: {} <2040> <https://shop.lululemon.commerceznx.store>
     """.format(sys.argv[0]))
     sys.exit()
 
